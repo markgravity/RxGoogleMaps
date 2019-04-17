@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.source_files          = 'Sources/*.swift'
 
   s.static_framework = true
-  s.dependency 'RxSwift', '~> 4.3'
-  s.dependency 'RxCocoa', '~> 4.3'
-  s.dependency 'GoogleMaps', '~> 2.7.0'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'GoogleMaps'
 
   s.pod_target_xcconfig = {
-    'SWIFT_VERSION' => '4.2'
+    'SWIFT_VERSION' => '5.0'
   }
 end
